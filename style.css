@@ -125,69 +125,7 @@ li::before {
     color: #f87171;
     margin-right: 5px;
 }
-/* === CV BUTTON === */
-.cv-section {
-    margin-top: 30px;
-}
 
-.btn-cv {
-    display: inline-block;
-    padding: 12px 25px;
-    border: 2px solid #f87171;
-    border-radius: 8px;
-    color: #f87171;
-    text-decoration: none;
-    font-size: 1rem;
-    transition: all 0.3s ease;
-}
-
-.btn-cv:hover {
-    background-color: #f87171;
-    color: #0a0f1a;
-    box-shadow: 0 0 15px rgba(248, 113, 113, 0.5);
-}
-
-/* lien actif menu */
-nav a.active {
-    color: #f87171;
-}
-/* === PROFIL LAYOUT === */
-.profil-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 40px;
-    margin-top: 30px;
-    flex-wrap: wrap;
-}
-
-.profil-photo img {
-    width: 180px;
-    height: 180px;
-    border-radius: 50%;
-    border: 3px solid #f87171;
-    object-fit: cover;
-    box-shadow: 0 0 25px rgba(248, 113, 113, 0.3);
-}
-
-.profil-info {
-    max-width: 400px;
-    text-align: left;
-}
-
-.profil-info p {
-    margin: 8px 0;
-}
-@media (max-width: 600px) {
-    .profil-container {
-        flex-direction: column;
-        text-align: center;
-    }
-
-    .profil-info {
-        text-align: center;
-    }
-}
 /* ---------- FOOTER ---------- */
 footer {
     text-align: center;
