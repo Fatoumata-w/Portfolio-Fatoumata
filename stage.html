@@ -1,38 +1,173 @@
 <!DOCTYPE html>
 <html lang="fr">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Stage - Fatoumata Batouly BA</title>
-    <link rel="stylesheet" href="style.css">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Portfolio - Stages</title>
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
+
 <body>
 
 <header>
-     <h1>&lt;/&gt; <span>Stage</span></h1>
-    <p>Découvrez mes expériences professionnelles en entreprise.</p>
-    <nav>
-        <ul>
-                 <li><a href="index.html">Accueil</a></li>
-                <li><a href="realisation.html">Réalisation</a></li>
-                <li><a href="stage.html">Stage</a></li>
-                <li><a href="veille.html">Veille</a></li>
-                <li><a href="bilan.html">Bilan</a></li>
-        </ul>
-    </nav>
+<h1>&lt;/&gt;  Fatoumata Batouly BA</h1>
+<nav>
+<ul>
+<li><a href="index.html">Accueil</a></li>
+<li><a href="realisation.html">Réalisation</a></li>
+<li><a href="stage.html" class="active">Stage</a></li>
+<li><a href="veille.html">Veille</a></li>
+<li><a href="bilan.html">Bilan</a></li>
+</ul>
+</nav>
 </header>
 
-<main class="page-list">
-    <h2>Mes Stages</h2>
-    <ul>
-        <li><a href="stage1.html">Stage 1ère année</a></li>
-   
-    </ul>
+<main>
+
+<!-- HERO -->
+<section class="page-hero red-glow">
+    <p class="hero-sub">Expérience professionnelle</p>
+    <h1>Mes Stages</h1>
+    <p class="hero-desc">Deux expériences concrètes en entreprise qui m'ont permis de mettre en pratique mes compétences techniques et de découvrir le travail en projet IT réel.</p>
+</section>
+
+<div class="stages-container">
+
+    <!-- STAGE 2 - Principal -->
+    <div class="stage-card main">
+        <div class="stage-card-header">
+            <div>
+                <p class="stage-label">Stage 2ème année</p>
+                <h2><i class="fa-solid fa-building"></i> DIDASCO — Assistante Chargée de Projet IT</h2>
+            </div>
+            <span class="stage-period"><i class="fa-solid fa-clock"></i> Janvier 2026 – Février 2026</span>
+        </div>
+
+        <div class="stage-card-body">
+            <div class="stage-col main-col">
+                <h3><i class="fa-solid fa-info-circle"></i> Présentation</h3>
+                <p class="stage-desc">
+                    Au sein de DIDASCO, j'ai participé au développement du site web de la <strong>Fédération Sénégalaise des Sports Équestres (FSSE)</strong>. Ce projet réel m'a permis d'intervenir à toutes les phases : de l'analyse du cahier des charges jusqu'au suivi du déploiement, en passant par la collaboration en méthode Agile.
+                </p>
+
+                <h3><i class="fa-solid fa-list-check"></i> Missions réalisées</h3>
+                <ul class="mission-list">
+                    <li><i class="fa-solid fa-check"></i> Analyse et compréhension du cahier des charges client</li>
+                    <li><i class="fa-solid fa-check"></i> Suivi du développement front-end (HTML5, CSS3, JavaScript)</li>
+                    <li><i class="fa-solid fa-check"></i> Vérification et test du responsive design sur différents supports</li>
+                    <li><i class="fa-solid fa-check"></i> Participation active aux réunions Agile (daily stand-ups, sprint reviews)</li>
+                    <li><i class="fa-solid fa-check"></i> Rédaction de documentation technique et fonctionnelle</li>
+                    <li><i class="fa-solid fa-check"></i> Intégration de maquettes Figma en HTML/CSS</li>
+                    <li><i class="fa-solid fa-check"></i> Communication directe avec le client et retours utilisateurs</li>
+                </ul>
+
+                <h3><i class="fa-solid fa-wrench"></i> Technologies utilisées</h3>
+                <div class="tech-tags">
+                    <span>HTML5</span><span>CSS3</span><span>JavaScript</span>
+                    <span>Bootstrap</span><span>Figma</span><span>Agile / Scrum</span><span>Git</span>
+                </div>
+            </div>
+
+            <div class="stage-col">
+                <h3><i class="fa-solid fa-star"></i> Compétences développées</h3>
+                <div class="competence-items">
+                    <div class="comp-item">
+                        <strong>Gestion de projet Agile</strong>
+                        <p>Participation à toutes les cérémonies Scrum et gestion des sprints en équipe.</p>
+                    </div>
+                    <div class="comp-item">
+                        <strong>Intégration front-end</strong>
+                        <p>Traduction de maquettes Figma en pages web responsive de qualité professionnelle.</p>
+                    </div>
+                    <div class="comp-item">
+                        <strong>Communication client</strong>
+                        <p>Échanges directs avec la FSSE pour valider les livrables et recueillir les retours.</p>
+                    </div>
+                   
+                    <div class="comp-item">
+                        <strong>Travail en équipe IT</strong>
+                        <p>Collaboration quotidienne avec des développeurs, un chef de projet et un designer.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="stage-card-footer">
+            <a href="RAPPORT DE STAGE Fatoumata Batouly BA .pdf" class="btn-primary">
+                <i class="fa-solid fa-file-pdf"></i> Voir le rapport de stage
+            </a>
+        </div>
+    </div>
+
+    <!-- STAGE 1 -->
+    <div class="stage-card secondary">
+        <div class="stage-card-header">
+            <div>
+                <p class="stage-label">Stage 1ère année</p>
+                <h2><i class="fa-solid fa-building"></i> SKOLAE — Stagiaire Système d'Information</h2>
+            </div>
+            <span class="stage-period"><i class="fa-solid fa-clock"></i> 1ère année BTS SIO</span>
+        </div>
+
+        <div class="stage-card-body">
+            <div class="stage-col">
+                <h3><i class="fa-solid fa-info-circle"></i> Présentation</h3>
+                <p class="stage-desc">
+                    Première immersion professionnelle chez SKOLAE, entreprise spécialisée dans les solutions numériques éducatives. Ce stage m'a permis de découvrir le fonctionnement concret d'un <strong>Système d'Information</strong> et de réaliser des tâches techniques dans un environnement professionnel réel.
+                </p>
+
+                <h3><i class="fa-solid fa-list-check"></i> Missions réalisées</h3>
+                <ul class="mission-list">
+                    <li><i class="fa-solid fa-check"></i> Découverte et analyse du système d'information de l'entreprise</li>
+                    <li><i class="fa-solid fa-check"></i> Support technique de premier niveau aux utilisateurs</li>
+                    <li><i class="fa-solid fa-check"></i> Maintenance et suivi des équipements informatiques</li>
+                    <li><i class="fa-solid fa-check"></i> Participation à des tâches de développement web (HTML, CSS, PHP)</li>
+                    <li><i class="fa-solid fa-check"></i> Travail collaboratif au sein de l'équipe technique</li>
+                </ul>
+
+                <h3><i class="fa-solid fa-wrench"></i> Technologies utilisées</h3>
+                <div class="tech-tags">
+                    <span>HTML</span><span>CSS</span><span>PHP</span><span>MySQL</span>
+                </div>
+            </div>
+
+            <div class="stage-col">
+                <h3><i class="fa-solid fa-star"></i> Compétences développées</h3>
+                <div class="competence-items">
+                    <div class="comp-item">
+                        <strong>Connaissance des SI</strong>
+                        <p>Compréhension du fonctionnement d'un système d'information en entreprise réelle.</p>
+                    </div>
+                    <div class="comp-item">
+                        <strong>Support technique</strong>
+                        <p>Résolution de problèmes courants et assistance aux utilisateurs internes.</p>
+                    </div>
+                    <div class="comp-item">
+                        <strong>Développement web</strong>
+                        <p>Premières contributions à un projet web PHP/MySQL en contexte professionnel.</p>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+
+        <div class="stage-card-footer">
+            <a href="Rapport de Stage Skolae.pdf" class="btn-primary">
+                <i class="fa-solid fa-file-pdf"></i> Voir le rapport de stage
+            </a>
+        </div>
+    </div>
+
+</div>
 </main>
- <footer>
-            <p>© 2025 - 2026 Fatoumata Batouly BA |BTS SIO </p>
-            <a href="https://github.com/Fatoumata-w">GitHub</a> |
-             <a href="https://www.linkedin.com/in/fatoumata-batouly-ba-399231347/">  LinkedIn</a></p>
-    </footer>
+
+
+<footer>
+<p>© 2025 - 2026 Fatoumata Batouly BA</p>
+<a href="https://github.com/Fatoumata-w">GitHub</a> |
+<a href="https://www.linkedin.com/in/fatoumata-batouly-ba-399231347/">LinkedIn</a>
+</footer>
+
 </body>
 </html>

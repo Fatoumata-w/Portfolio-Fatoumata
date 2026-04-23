@@ -1,63 +1,130 @@
 <!DOCTYPE html>
 <html lang="fr">
-
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio - Fatoumata Batouly BA</title>
-    <link rel="stylesheet" href="style.css">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Portfolio - Fatoumata Batouly BA</title>
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
 </head>
 
 <body>
 
-    <header>
-      <h1>&lt;/&gt; <span>Portfolio — Fatoumata Batouly BA</span></h1>
-        <p>Étudiante en 2e année de BTS SIO option SLAM</p>
+<header>
+<h1>&lt;/&gt; Fatoumata Batouly BA</h1>
+<nav>
+<ul>
+<li><a href="index.html" class="active">Accueil</a></li>
+<li><a href="realisation.html">Réalisation</a></li>
+<li><a href="stage.html">Stage</a></li>
+<li><a href="veille.html">Veille</a></li>
+<li><a href="bilan.html">Bilan</a></li>
+</ul>
+</nav>
+</header>
 
-        <nav>
-            <ul>
-                
-                 <li><a href="index.html">Accueil</a></li>
-                <li><a href="realisation.html">Réalisation</a></li>
-                <li><a href="stage.html">Stage</a></li>
-                <li><a href="veille.html">Veille</a></li>
-                <li><a href="bilan.html">Bilan</a></li>
-            </ul>
-        </nav>
-    </header>
+<main>
 
-    <main>
-        <section id="accueil">
-            <h2>Présentation</h2>
-            <img src="photo portfolio.jpg" alt="Photo de Fatoumata Batouly BA">
-            <p><strong>Nom :</strong> Fatoumata Batouly BA</p>
-            <p><strong>Âge :</strong> 20 ans</p>
-            <p><strong>Formation :</strong> BTS SIO option SLAM</p>
+<!-- HERO -->
+<section class="hero">
+    <p class="hero-intro">Bonjour, je suis Fatoumata Batouly BA</p>
 
-            <h3>Compétences techniques</h3>
-            <ul>
-                <li>HTML & CSS</li>
-                <li>JavaScript</li>
-                <li>PHP / Python</li>
-                <li>Bases de données (MySQL /PHPMyAdmin)</li>
-                <li>Linux & Réseaux</li>
-            </ul>
+    <h1 class="hero-title">
+        Bienvenue sur mon <br> Portfolio
+    </h1>
 
-            <h3>Compétences humaines</h3>
-            <ul>
-                <li>Travail en équipe</li>
-                <li>Autonomie</li>
-                <li>Communication</li>
-                <li>Gestion de projet</li>
-            </ul>
-        </section>
-    </main>
+    <p class="hero-text">
+       Étudiante en 2ème année de BTS SIO option SLAM, ce portfolio met en avant mes compétences, mes projets qui illustrent mon parcours et mon évolution dans le développement informatique.
 
-    <footer>
-        <p>© 2025 - 2026 Fatoumata Batouly BA |BTS SIO </p>
-            <a href="https://github.com/Fatoumata-w">GitHub</a> |
-             <a href="https://www.linkedin.com/in/fatoumata-batouly-ba-399231347/">  LinkedIn</a></p>
-    </footer>
+    </p>
+
+    <div class="hero-buttons">
+        <a href="realisation.html" class="btn-primary">Voir mes projets</a>
+        <a href="index.html#contact" class="btn-outline">Me contacter</a>
+    </div>
+</section>
+
+<!-- COMPETENCES -->
+<section class="competences-section">
+
+    <h2 class="section-title">— Parcours & Compétences —</h2>
+
+    <div class="competences-container">
+
+     <!-- Bloc Parcours -->
+ <div class="competence-card">
+            <h3>Parcours Académique</h3>
+
+            <div class="education-item">
+                <h4>BTS SIO SLAM - Socle Numérique 2 (25/26)</h4>
+                <p>EPSI Paris | Courbevoie</p>
+            </div>
+
+            <div class="education-item">
+                <h4>Socle Numérique 1 (24/25)</h4>
+                <p>EPSI Paris | Courbevoie</p>
+            </div>
+        </div>
+
+        <!-- Bloc Expériences Professionnelles -->
+        <div class="competence-card">
+            <h3>Expériences Professionnelles</h3>
+
+            <div class="education-item">
+                <h4>DIDASCO - Assistante Projet IT</h4>
+                <p>Stage 2ème année</p>
+            </div>
+
+            <div class="education-item">
+                <h4>SKOLAE - Stage Système d'information</h4>
+                <p>Stage 1ère année</p>
+            </div>
+        </div>
+
+        <!-- Bloc Soft Skills -->
+        <div class="competence-card">
+            <h3>Soft Skills</h3>
+
+            <div class="education-item"><p>Communication</p></div>
+            <div class="education-item"><p>Adaptabilité</p></div>
+            <div class="education-item"><p>Autonomie</p></div>
+            <div class="education-item"><p>Travail en équipe</p></div>
+        </div>
+
+    </div>
+
+    <!-- Icônes -->
+    <div class="skills-icons">
+        <span>HTML</span>
+        <span>CSS</span>
+        <span>JS</span>
+        <span>Python</span>
+        <span>PHP</span>
+        <span>MySQL</span>
+        <span>WordPress</span>
+        <span>SEO</span>
+    </div>
+
+</section>
+
+<!-- NAV RAPIDE -->
+<section class="cards">
+
+    <a href="realisation.html" class="card link-card">
+        <h3>Mes Réalisations</h3>
+        <p>Voir mes projets</p>
+    </a>
+
+</main>
+
+<footer 
+id="contact">
+<p>© 2025 - 2026 Fatoumata Batouly BA | BTS SIO</p>
+<p>Email : <a href="mail">f.ba1@ecoles-epsi.net</a></p>
+<a href="https://github.com/Fatoumata-w">GitHub</a> |
+<a href="https://www.linkedin.com/in/fatoumata-batouly-ba-399231347/">LinkedIn</a>
+</footer>
+
 </body>
-
 </html>
