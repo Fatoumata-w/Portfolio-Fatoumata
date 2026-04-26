@@ -1165,4 +1165,10 @@ nav ul {
     .two-cols { grid-template-columns: 1fr; }
     .stage-card-body { grid-template-columns: 1fr; }
     .stage-card-header { flex-direction: column; }
+    .epoch { flex-direction: column; gap: 16px; }
+    .epoch-left { width: auto; text-align: left; flex-direction: row; align-items: center; gap: 12px; padding-top: 0; }
+    .epoch-left::before, .epoch-left::after { display: none; }
+    .epoch-year { font-size: 1rem; }
+    .methodo-push-pull { grid-template-columns: 1fr; }
+    .synthese-grid { grid-template-columns: 1fr; }
 }
